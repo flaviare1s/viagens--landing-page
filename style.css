@@ -62,9 +62,13 @@ body {
     list-style: none;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
 }
 
 .nav-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     text-decoration: none;
     color: var(--text-dark);
     font-weight: 500;
@@ -80,7 +84,7 @@ body {
 }
 
 .nav-links i {
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
 }
 
 /* Banner Principal */
@@ -461,7 +465,7 @@ footer {
     
     .nav-links a {
         font-size: 0.8rem;
-        padding: 0.4rem;
+        padding: 0.65rem;
     }
 
     .nav-title {
